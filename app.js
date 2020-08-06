@@ -23,14 +23,17 @@ mongoose.set('useUnifiedTopology', true)
 //  useNewUrlParser: true,
 // });
 
-mongoose.connect(
-  'mongodb+srv://kiran_panjam:Version@02@cluster0.c9td0.mongodb.net/yelp_camp?retryWrites=true&w=majority',
-  {
-    useNewUrlParser: true,
-    useCreateIndex: true,
-  },
-)
-
+// mongoose.connect(
+//   'mongodb+srv://kiran_panjam:Version@02@cluster0.c9td0.mongodb.net/yelp_camp?retryWrites=true&w=majority',
+//   {
+//     useNewUrlParser: true,
+//     useCreateIndex: true,
+//   },
+// )
+mongoose.connect(process.env.DATABASEURL, {
+  useNewUrlParser: true,
+  useCreateIndex: true,
+})
 //seedDB();
 
 //passport configuration
