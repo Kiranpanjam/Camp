@@ -36,3 +36,4 @@ The application is hosted on heroku and can be accessed at https://kiran-planyou
 - **Heroku** 
 - **MongoDB Atlas**   
 
+Licensed under the [MIT LICENSE](License) .
