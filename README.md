@@ -11,14 +11,14 @@ The application is hosted on heroku and can be accessed at https://kiran-planyou
 - User login with username and password
 
 **Authorization:**
--One cannot manage posts and view user profile without being authenticated
--One cannot edit or delete posts and comments created by other users
+- One cannot manage posts and view user profile without being authenticated
+- One cannot edit or delete posts and comments created by other users
 
 **Manage campground posts with basic functionalities:**
--Create, edit and delete posts and comments
--Upload campground photos
--Flash messages responding to users' interaction with the app
--Responsive web design
+- Create, edit and delete posts and comments
+- Upload campground photos
+- Flash messages responding to users' interaction with the app
+- Responsive web design
 
 ## Technologies Used:
 
