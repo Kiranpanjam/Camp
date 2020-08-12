@@ -8,7 +8,7 @@ The application is hosted on heroku and can be accessed at https://kiran-planyou
 
 ## Functionalities
 **Authentication:**
--User login with username and password
+- User login with username and password
 
 **Authorization:**
 -One cannot manage posts and view user profile without being authenticated
