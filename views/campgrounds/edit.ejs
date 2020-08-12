@@ -2,7 +2,7 @@
 
 <div class="container">
   <div class="row">
-    <h1 style="text-align: center;">Edit <%= campground.name %></h1>
+    <h1 style="text-align: center;color: azure; font-family: Nothing You Could Do;">Edit <%= campground.name %></h1>
 
     <div style="width: 35%; margin: 40px auto;">
       <form
@@ -43,14 +43,16 @@
             name="campground[description]"
           />
         </div>
-        <div class="form-group">
+        <div id="login-button" class="form-group">
           <button class="btn btn-lg btn-default btn-primary btn-block">
             Submit
           </button>
         </div>
       </form>
 
-      <a href="/campgrounds"><-- Back</a>
+      <div id="back">
+        <a href="/campgrounds">Go Back!</a>
+      </div>
     </div>
   </div>
 </div>

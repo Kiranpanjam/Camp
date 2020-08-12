@@ -2,7 +2,7 @@
 
 <div class="container">
   <div class="row">
-    <h1 style="text-align: center;">Create a new Campground</h1>
+    <h1 style="text-align: center; color: azure; font-family: Nothing You Could Do;">Create a new Campground</h1>
 
     <div style="width: 35%; margin: 40px auto;">
       <form action="/campgrounds" method="POST">
@@ -10,7 +10,7 @@
           <input
             class="form-control"
             type="text"
-            placeholder="name"
+            placeholder="Name"
             name="name"
           />
         </div>
@@ -18,7 +18,7 @@
           <input
             class="form-control"
             type="number"
-            placeholder="price"
+            placeholder="Price"
             name="price"
             min="0.10"
             step="0.10"
@@ -36,18 +36,19 @@
           <input
             class="form-control"
             type="text"
-            placeholder="description"
+            placeholder="Description"
             name="description"
           />
         </div>
-        <div class="form-group">
+        <div id="login-button" class="form-group">
           <button class="btn btn-lg btn-default btn-primary btn-block">
             Submit
           </button>
         </div>
       </form>
-
-      <a href="/campgrounds"><-- Back</a>
+      <div id="back">
+        <a href="/campgrounds">Go Back!</a>
+      </div>
     </div>
   </div>
 </div>

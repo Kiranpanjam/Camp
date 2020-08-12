@@ -13,6 +13,17 @@ body {
   color: #fff;
 }
 
+.view-camps:visited {
+  color: #fff;
+  opacity: 50%;
+  text-decoration: none;
+}
+
+.view-camps {
+  color: #fff;
+  opacity: 1;
+}
+
 .slideshow {
   position: fixed;
   width: 100%;

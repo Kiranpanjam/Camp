@@ -15,7 +15,7 @@
         <img class="img-responsive" src=" <%= campgrounds.image %> " alt="" />
         <div class="caption-full">
           <h4 class="pull-right">$<%= campgrounds.price %> /night</h4>
-          <h4><a href="/"><%= campgrounds.name %></a></h4>
+          <h4><p class="camp-name" ><%= campgrounds.name %></p></h4>
           <p><%= campgrounds.description %></p>
           <p>
             <em> Submitted by <%= campgrounds.author.username %></em>
@@ -71,6 +71,7 @@
               />
             </form>
             <% }%>
+            <hr>
           </div>
         </div>
         <% }) %>

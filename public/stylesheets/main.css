@@ -9,3 +9,57 @@
 .delete-campground-button {
   display: inline;
 }
+
+.body-personal {
+  background-color: black;
+}
+
+.panel-title {
+  font-family: Nothing You Could Do;
+  text-align: center;
+  text-decoration: solid;
+  font-weight: 900;
+  font-size: 50px;
+}
+
+#login-button {
+  border: 20px inherit;
+  margin-bottom: 40px;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.panel-body {
+  margin-top: 0px;
+  padding-top: 10px;
+}
+
+.panel-heading hr {
+  margin-bottom: 0px;
+  margin-top: 10px;
+}
+
+.jumbotron {
+  text-align: center;
+}
+
+.lead {
+  color: azure;
+}
+
+.jumbotron p a {
+  color: black;
+}
+
+.camp-name {
+  font-size: xx-large;
+  font-weight: 600;
+  font-family: Nothing You Could Do;
+}
+
+#back {
+  font-size: large;
+  font-weight: 900;
+  font-family: Nothing You Could Do;
+  text-align: center;
+}
