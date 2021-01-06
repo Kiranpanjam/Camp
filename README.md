@@ -4,7 +4,7 @@ YelpCamp is a project that was started as a part of [Colt Steele's Web Developme
 ## Description
 YelpCamp is based on the popular Yelp.com , the difference being it focuses on the campgrounds that any host/owner can post for the users across the globe to check and review.
 
-The application is hosted on heroku and can be accessed at https://kiran-planyourtrip.herokuapp.com/
+The application is hosted on heroku and can be accessed at https://kiran-knowyourtrip.herokuapp.com/
 
 ## Functionalities
 **Authentication:**
