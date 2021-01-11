@@ -1,4 +1,4 @@
-# YelpCamp
+# KnowYourTrip
 YelpCamp is a project that was started as a part of [Colt Steele's Web Development Bootcamp course (Udemy)](https://www.udemy.com/course/the-web-developer-bootcamp/).
 
 ## Description
